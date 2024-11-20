@@ -1,0 +1,38 @@
+
+@media screen and (max-width:1000px) {
+    .nav {
+        display: none;
+    }
+    
+    .hcont {
+        flex-direction: column;
+    }
+    
+    .home {
+        height: auto;
+    }
+    
+    .abtcont {
+        flex-direction: column;
+    }
+    
+    .abt {
+        margin: auto;
+        height: auto;
+    
+    }
+    
+    .socialcontent h1 {
+        font-size: 3vh;
+        word-spacing: 15px;
+    }
+    .hcont img{
+      display: none;
+    }
+    .abtphp img{
+        /* margin: auto; */
+        height: 380px !important;
+        width: 230px !important;
+    }
+}
+

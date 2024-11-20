@@ -1,0 +1,418 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c4c1c1;
+    width: 15px;
+    cursor: pointer;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2c2c2c;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+}
+
+.home {
+    background-image: linear-gradient(90deg, rgba(5, 5, 5, 1) 0%, rgba(67, 67, 67, 1) 73%);
+    height: 100vh;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-top: 0;
+    justify-content: space-between;
+}
+.bar img{
+    height: 5rem;
+    width: 5rem;
+}
+.portfolio h1{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    color: aqua;
+}
+.grad-text{
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(218, 33, 116), aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav {
+    text-decoration: none;
+    height: 53px;
+    width: 100%;
+    z-index: 1000;
+    margin-left: 0;
+    top: 0;
+    font-size: 25px;
+    width: 100%;
+    text-align: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color:aqua;
+}
+
+.dn {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 3%;
+    margin-left: 20px;
+    margin-right: 1%;
+}
+
+/* .hdn {
+    margin-left: 30px;
+} */
+
+h2 {
+    margin-bottom: 0;
+    font-size: 1.5vw;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.5vw;
+}
+.hcont{
+    display: flex;
+    margin-bottom: 4rem;
+}
+.hcont img{
+    margin-top: 80px;
+    margin-left: 300px;
+    height: 500px;
+    width: 450px;
+}
+.hithere{
+    color: aqua;
+}
+
+.cont {
+    width: 37%;
+    color: aliceblue;
+    margin-top: 8%;
+    margin-left: 18%;
+}
+
+.lm {
+    padding: 10px;
+    font-size: 1.3vw;
+    background-color: transparent;
+    border: solid 2px aqua;
+    color:aqua;
+    border-radius: 10px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.mot {
+    font-size: larger;
+}
+
+.abt {
+    margin-top: 5%;
+    padding: 10px;
+}
+.abta{
+    padding: 20px;
+}
+
+.abtcont {
+    display: flex;
+}
+
+.abtphp img {
+    height: 750px;
+    width: 500px;
+}
+
+.abt {
+    width: 80%;
+    font-size: larger;
+    margin: auto;
+}
+
+.abtp {
+    font-size: 1.4em;
+    /* height: 200px; */
+    width: 80%;            
+    /* box-shadow: 2px 2px 8px lightgrey; */
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social {
+    display: block;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 5%;
+}
+
+.socialcontainer {
+    min-height: auto;
+    display: flex;
+}
+
+.socialbg {
+    border: 0px solid rgba(102, 115, 141, 0);
+    border-radius: 0;
+}
+
+.socialbgcolor {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.socialcontent {
+    color: white;
+    width: 70%;
+}
+
+.gmail {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
+
+.insta {
+    display: inline-block;
+    margin: auto;
+}
+
+.linkedin {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.images {
+    display: flex;
+    width: auto;
+}
+
+.social .images img {
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+}
+
+.socialcontent h1 {
+    font-size: 6vh;
+    word-spacing: 15px;
+}
+.pfont{
+    font-family: "DM Sans", sans-serif;
+}
+p{
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.hdg {
+    font-size: 3.5em;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+.hfont{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+
+.logo img {
+
+    height: 200px;
+    width: 200px;
+    filter: invert();
+}
+
+.skillsnex{
+    background-image: url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?cs=srgb&dl=pexels-harold-vasquez-853421-2653362.jpg&fm=jpg');
+    mask-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    /* padding-left: 5%; */
+    height:auto;
+    margin: 0;
+}
+
+.si{
+    width: 90%;
+    text-align: center;
+}
+.simg{
+    margin-bottom: 3rem;
+}
+.projects{
+    background-image: url('https://img.freepik.com/free-vector/white-digital-matrix-binary-code-numbers-background_1017-25332.jpg');
+    mask-repeat: no-repeat;
+    background-size: cover;
+}
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 20rem;
+    margin: 3rem;
+    text-align: center;
+}
+.card img{
+    height: 15rem;
+    width: 18rem;
+    margin: auto;
+}
+
+.box1 {
+
+    width: 4000px;
+    margin-right: 20%;
+}
+
+.emailcap {
+    color: white;
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+.form {
+    width: 80%;
+    margin: 4% auto;
+    font-size: 2rem;
+}
+
+.flabel {
+    color: white;
+}
+
+.infobox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.linfo {
+    margin-left: 45%;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: larger;
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+}
+
+.subt {
+    margin-left: 47%;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: large;
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+}
+
+#elabel {
+    margin-left: 30%;
+}
+
+#email {
+    margin-right: 0;
+}
+
+input {
+    width: 159px;
+    height: 27px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+#tmsg {
+    color: white;
+    font-size: 2rem;
+}
+
+.subt:disabled {
+    cursor: not-allowed;
+}
+
+.linfo:disabled {
+    cursor: not-allowed;
+}
+
+.cntr {
+    text-align: center;
+
+}
+.para{
+    font-size: 1.4em;
+
+}
+
+.simg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.simg img{
+    mix-blend-mode: screen;
+}
+
+.imgss {
+    margin: 25px;
+    height: 140px;
+    width: 135px;
+    --angle: 0deg;
+    border-radius: 10px;
+    padding: 10px;
+}  
+.left-margin{
+    margin-left: 4%;
+}
